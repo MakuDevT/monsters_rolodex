@@ -37,8 +37,8 @@ class App extends Component {
     const filteredMonsters = monsters.filter((monster) => { return monster.name.toLocaleLowerCase().includes(searchField) });
     return (
       <div className="App">
-
-        <SearchBox onChangeHanddler={onSearchChange} placeholder='search monsters' className='monsters-search-box' />
+        <h1 className="app-title">Monster RocoRoco </h1>
+        <SearchBox onChangeHandler={onSearchChange} placeholder='search monsters' className='monsters-search-box' />
 
         <CardList monsters={filteredMonsters} />
       </div>
