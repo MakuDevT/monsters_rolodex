@@ -37,28 +37,5 @@ const App = () => {
     </div>
   )
 }
-// class App extends Component {
-
-// constructor() {
-//   super()
-//   this.state = { monsters: [], searchField: '' }
-// }
-
-
-
-//   onSearchChange = (event) => {
-//     const searchField = event.target.value.toLocaleLowerCase()
-//     this.setState(() => { return { searchField } })
-//   }
-
-//   render () {
-
-//     const { monsters, searchField } = this.state;
-//     const { onSearchChange } = this;
-
-
-
-//   }
-// }
 
 export default App
